@@ -21,7 +21,8 @@
 
 ## flag介绍
 ```
-des -help
+// des -help
+
 usage: des [options] dir
  - 此应用程序将扫描目录下的所有文件，查找到特定注释("@Des: {describe text}" as default)，并构建成易读的结构并输出
    标准输出格式:                                        ' filename.go - {describe text}'
