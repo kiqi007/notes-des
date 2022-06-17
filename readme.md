@@ -25,9 +25,9 @@
 
 usage: des [options] dir
  - 此应用程序将扫描目录下的所有文件，查找到特定注释("@Des: {describe text}" as default)，并构建成易读的结构并输出
-   标准输出格式:                                        ' filename.go - {describe text}'
-   无需备注的文件       ( @Des: -):                     ' filename.go'
-   已废弃的文件 ( @Des: [d|delete|废弃]):       ' filename.go(del)'
+   标准输出格式:                           	' filename.go - {describe text}'
+   无需备注的文件 	( @Des: -):        			' filename.go'
+   已废弃的文件  	( @Des: [d|delete|废弃]):   	' filename.go(del)'
 
 Flags:
   -debug
