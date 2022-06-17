@@ -9,13 +9,15 @@
 ```
 
 ## 结果展示
-> ./notes-des
-> ├── common.go - [ast可复用的共有抽象部分]
-> ├── des
-> │   ├── des_output.go - [将解析结果解析成特定格式并输出 (StdOut/TreeOut/TrieOut)]
-> │   ├── des_visitor.go - [visitor实现，ast获取文件注释并匹配合规的注释]
-> │   └── main.go - [des 命令行入口]
-> └── trie/treeprint.go - [树状结构构建与输出，为原实现扩展了压缩单叉节点的功能 / copy from github.com/xlab/treeprint]
+```
+./notes-des
+├── common.go - [ast可复用的共有抽象部分]
+├── des
+│   ├── des_output.go - [将解析结果解析成特定格式并输出 (StdOut/TreeOut/TrieOut)]
+│   ├── des_visitor.go - [visitor实现，ast获取文件注释并匹配合规的注释]
+│   └── main.go - [des 命令行入口]
+└── trie/treeprint.go - [树状结构构建与输出，为原实现扩展了压缩单叉节点的功能 / copy from github.com/xlab/treeprint]
+```
 
 ## flag介绍
 ```
