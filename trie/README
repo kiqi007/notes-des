@@ -1,0 +1,4 @@
+copy from github.com/xlab/treeprint
+
+原因: 原实现只能生成常规树，且提供的扩展存在unexported bug无法使用。
+实现: 对于单叉分支，支持合并树深(删除meta value部分)
